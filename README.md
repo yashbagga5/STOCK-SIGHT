@@ -4,7 +4,6 @@
 This project forecasts the stock prices of **Apple Inc. (AAPL)** using three popular time series models:
 - 🔁 **ARIMA**
 - 🔄 **SARIMA**
-- 🧠 **LSTM (Deep Learning)**
 
 It compares the performance of these models and visualizes how each predicts future stock prices based on historical data.
 
@@ -24,10 +23,12 @@ It compares the performance of these models and visualizes how each predicts fut
 
  1. Install Required Libraries
 
-bash
+
 pip install pandas numpy matplotlib statsmodels scikit-learn tensorflow yfinance
 
 2. Run
+
+
 python stock_forecasting_combined.py
 
 ---
@@ -43,6 +44,8 @@ The script will:
 
 ---
 🔧 Models Used
+
+
 Model:Description
 - ARIMA:	AutoRegressive Integrated Moving Average
 - SARIMA:	Seasonal ARIMA with trend + seasonality
@@ -65,9 +68,9 @@ Each model predicts the next 30 days of stock prices and compares with actuals.
 
 ---
 === Model Performance Summary ===
-   Model     MSE
-0  ARIMA     3.45
-1 SARIMA     2.81
+-    Model     MSE
+- 1  ARIMA     3.45
+- 2 SARIMA     2.81
 
 ---
 
@@ -78,9 +81,13 @@ Each model predicts the next 30 days of stock prices and compares with actuals.
 
 ---
 🤝 Contributions
+
+
 Open to collaboration and enhancements! Feel free to fork and improve the project.
 
 ---
 📬 Contact
+
+
 Made by Yash Bagga – Data Science Enthusiast
 | Mail: yashbagga5@email.com
