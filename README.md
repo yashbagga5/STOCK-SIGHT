@@ -1,7 +1,7 @@
 # Stock_Sight
-# 📈 Stock Sight: AAPL Stock Forecasting with ARIMA, SARIMA, and LSTM
+# 📈 Stock Sight: AAPL Stock Forecasting with ARIMA & SARIMA
 
-This project forecasts the stock prices of **Apple Inc. (AAPL)** using three popular time series models:
+This project forecasts the stock prices of **Apple Inc. (AAPL)** using two popular time series models:
 - 🔁 **ARIMA**
 - 🔄 **SARIMA**
 
